@@ -57,12 +57,12 @@ function withdraw(uint256 _amount) public
 
 ## Assignment Requirements Met
 
-✅ **Use a Library for math** - SafeMath library for secure arithmetic  
-✅ **Emit Events** - Deposit and Withdrawal events logged  
-✅ **Use require()** - Multiple validations prevent invalid operations  
-✅ **Prevent over-withdrawing** - Balance checks before withdrawal  
-✅ **Prevent 0 ETH deposits** - Input validation on deposits  
-✅ **Implement Inheritance** - VaultBase (base) + VaultManager (derived)  
+- **Use a Library for math** - SafeMath library for secure arithmetic  
+- **Emit Events** - Deposit and Withdrawal events logged  
+- **Use require()** - Multiple validations prevent invalid operations  
+- **Prevent over-withdrawing** - Balance checks before withdrawal  
+- **Prevent 0 ETH deposits** - Input validation on deposits  
+- **Implement Inheritance** - VaultBase (base) + VaultManager (derived)  
 
 ## Usage Examples
 
@@ -103,10 +103,10 @@ contract.withdraw(500000000000000000); // 0.5 ETH in Wei
 ## Testing
 
 Successfully tested in Remix IDE with:
-- ✅ Multiple deposits and withdrawals
-- ✅ Error cases (0 deposits, over-withdrawing)
-- ✅ Balance tracking accuracy
-- ✅ Event emission verification
+- Multiple deposits and withdrawals
+- Error cases (0 deposits, over-withdrawing)
+- Balance tracking accuracy
+- Event emission verification
 
 ## Technical Notes
 
